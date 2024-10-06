@@ -3,20 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet">
 <title>Care for the Soul</title>
 <style>
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: black;
-    padding: 8px;
-}
+
 a:link {
     text-decoration: none;
     color: black;
 }
+	table, td, th{
+			  border:1px solid black;
+			  text-align: left;
+			  color: black;
+		 }
+		  table{
+			  border-collapse: collapse;
+			  width: 50%;
+			  float: right
+		  }
+		  th{
+			  height: 30%;
+			  border-bottom:medium;	  
+		  }
 </style>
 <script>
 function myFunction() { 
@@ -24,31 +32,32 @@ function myFunction() {
 }
 </script>
 </head>
+	
 <body>
 <div id="container">
   <header>
-    <h1>Care for the Soul</h1>
+    <h1 class="roboto-condensed"> Care for the Soul  </h1>
   </header>
   <nav>
-  
-   
-<ul style="list-style-type:none;">
-      <b>
-        <li><a href= "#Home">Home</a></li>
-      </b> <b>
-          <li><a href= "#Blogs">Blogs</a></li>
-          </b> <b>
-            <li><a href= "#About">About</a></li>
-            </b> <b>
-              <li><a href= "#Resources">Resources&nbsp;&nbsp;</a></li></b>
-    </ul>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#blogs">Blogs</a></li>
+  <li><a href="#Resources">Resources</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
 </nav>
 	<br>
 		<main>
 		  <b>
-		  <p>
-				  <button type="button" onclick="myFunction()">Click Me!</button>   
-		     Self-Care Tip<br></p>
+		
+			  <form action="/action_page.php">
+  <label for="userName">User name:</label>
+  <input type="text" id="userName" name="userName" value="Nikki">
+  <label for="password">Password:</label>
+  <input type="text" id="password" name="password" value="Tey">
+  <input type="submit" value="Submit">
+</form> 
 </b>
 		</main>
    <br>
@@ -74,12 +83,88 @@ function myFunction() {
       <br>
       <li>Reading &#128214;</li>
       <br>
-      </ul>
+    </ul>
   </article>
-	<br>
-  <footer> <b>
-    <h4>Made By Nicole Tey</h4>
-    </b> <b><a abbr title="#Frequently Asked Questions">FAQ</a> <a href="https:www.google.com/" >Google</a></b> </footer>
+	
+  <section>
+	  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #767070;">
+Your browser does not support the HTML canvas tag.
+</canvas>
+
+	<table>
+			<caption>How are we doing with Self Care?</caption>
+			<tr>
+				<th>Age Groups</th>
+				<th>Practice Self-Care</th>
+				<th>Don't Practice Self-Care</th>
+			</tr>
+			<tr>
+				<td>18-24</td>
+				<td>60-70%</td>
+				<td>30-40%</td>
+			</tr>
+			<tr>
+				<td>25-34</td>
+				<td>55-65%</td>
+				<td>35-45%</td>
+			</tr>
+			<tr>
+				<td>35-44</td>
+				<td>50-60%</td>
+				<td>45-55%</td>
+			</tr>
+			<tr>
+				<td>45-54</td>
+				<td>45-55%</td>
+				<td>55-65%</td>
+			</tr>
+		</table>
+	 
+	
+	</section>
+<article style="font-size:11.3px;">
+	 <dl>
+	  <dt><b>Here are six benefits of practicing self-care for women:</b></dt>
+		  <br>
+		  <dt><b>Improved Mental Health:</b></dt>
+		  <dd>Regular self-care activities can reduce anxiety, depression, and stress. Taking time for oneself helps improve mood and fosters a sense of emotional well-being.</dd>
+		  <dt><b>Increased Energy and Productivity:</b></dt>
+		  <dd>By prioritizing self-care, women can recharge mentally and physically. This rejuvenation leads to greater focus, enhanced productivity, and a renewed zest for daily tasks.</dd>
+		  <dt><b>Better Physical Health:</b></dt>
+		  <dd>Engaging in self-care often involves physical activities, proper nutrition, and adequate rest, all of which contribute to overall health. This can reduce the risk of chronic illnesses and promote longevity.</dd>
+		  <dt><b>Enhanced Self-Esteem and Confidence:</b></dt>
+		  <dd>aking time for self-care promotes self-compassion and self-acceptance, leading to improved self-esteem. When women prioritize their own needs, they feel more empowered and in control of their lives.</dd>
+		  <dt><b>Stronger Relationships:</b></dt>
+		  <dd>By practicing self-care, women become better equipped to nurture their relationships. When they take care of themselves, they're more present, patient, and engaged, which strengthens connections with family and friends.</dd>
+		  <dt><b>Greater Resilience:</b></dt>
+		  <dd>Self-care helps women develop coping strategies and resilience to handle life's challenges. By investing time in themselves, they can build a better foundation for dealing with stress and adversity.</dd>
+		  <br>
+		  <dt><b>These benefits highlight the importance of self-care as a vital component of a healthy lifestyle for women.</b> </dt>
+		 </dl>
+	</article><br>
+	<article class="test">
+	<h3></h3>
+		<img src="images/Isn't selfish.png" alt="Self Care Isn't Selfish" width:="150px"/>
+		<br>
+		<iframe src="https://centerstone.org/our-resources/health-wellness/self-care-for-women/" style="height:200px;width:200px" title="Iframe Example"></iframe>
+
+		
+
+	</article>
+<section class="test">
+	<h3>Reminders:</h3> <button float="right" type="button" onclick="myFunction()">Click Me!</button>
+	  <p id="demo">Self-Care Tip for the Week!</p>  
+	
+	<audio controls>
+   <source src="Asset/iam.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+	
+	</section>
+<footer>
+    <h4>Made By Nicole Tey</h4><br>
+	
+  <b><a abbr title="#Frequently Asked Questions">FAQ</a> <a href="https:www.google.com/" >Google</a></b> </footer>
 </div>
 </body>
 </html>
