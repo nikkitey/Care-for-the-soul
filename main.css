@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:hsla(0,3%,29%,1.00)
+
+	}
+header > h1 {text-align: center;}
+nav{
+ 
+	width: 700px;
+    height: 50px;
+    background-color:hsla(35,6%,39%,1.00);
+	border-radius: 20px;
+    float: inline;
+	margin: 0px 0px 0px 25px;
+	padding:5px 10px;
+	border: solid;	
+}
+main{
+	width: 700px;
+    height: 40px;
+    background-color:hsla(35,6%,39%,1.00);
+	border-radius: 20px;
+    float: inline;
+	margin: 0px 0px 0px 25px;
+	padding:5px 10px;
+	border: solid;	
+}	
+	
+	
+	
+
+#container{
+	width: 800px;
+	height: 1000px;
+    background-color:hsla(35,18%,74%,1.00);
+    margin: 0 auto;
+}
+article
+{
+	width: 300px;
+	height: 475px;
+    background-color: rgba(165,138,139,1.00);
+	border-radius: 20px;
+    float: left;
+    margin-left: 28px;
+	margin-right: 46px;
+	padding: 10px;
+	padding-bottom: 20px;
+	border: solid;
+}
+article
+{
+	width: 300px;
+	height: 475px;
+    background-color: rgba(165,138,139,1.00);
+	border-radius: 20px;
+    float: left;
+    margin-left: 28px;
+	margin-right: 46px;
+	padding: 10px;
+	padding-bottom: 20px;
+	border: solid;
+}
+
+footer {
+	clear: both;
+    background-color:hsla(351,4%,38%,1.00);
+	border-radius: 5px;
+	padding: 5px;
+	padding-bottom: 10px;
+	text-align:left;
+	text-decoration-color: black;
+	
+    
+}
