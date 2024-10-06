@@ -70,7 +70,8 @@ footer {
 	padding: 5px;
 	padding-bottom: 10px;
 	text-align:left;
-	text-decoration-color: black;
+	text-decoration-color:hsla(0,0%,0%,1.00);
+	border: solid;
 	
     
 }
